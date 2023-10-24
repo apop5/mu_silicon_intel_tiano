@@ -11,7 +11,7 @@ Ubuntu_GCC5_                  |UbuntuCiBuild|   |UbuntuCiTest|  |UbuntuCiCoverag
 
 This repository is part of Project Mu.  Please see Project Mu for details https://microsoft.github.io/mu
 
-Branch Status - release/202302
+Branch Status - release/202308
 ==============================
 
 :Status:
@@ -23,7 +23,7 @@ Branch Status - release/202302
 :Anticipated Stabilization:
   August 2023
 
-Branch Changes - release/202302
+Branch Changes - release/202308
 ===============================
 
 Breaking Changes-dev
@@ -41,21 +41,21 @@ Bug Fixes-dev
 
 - Incomplete
 
-2302_RefBoot Changes
+2308_RefBoot Changes
 --------------------
 
 - Incomplete
 
-2302_CIBuild Changes
+2308_CIBuild Changes
 --------------------
 
-- None
+- Incompletet
 
-2302_Rebase Changes
+2308_Rebase Changes
 -------------------
 
-| Starting commit: 732446a8c8
-| Destination commit: f2a4209c37
+| Starting commit: e284ae6c1b
+| Destination commit: TBA
 
 
 Repo Maintenance
@@ -64,8 +64,8 @@ Repo Maintenance
 Upstream Sync Details
 ---------------------
 
-- edk2 - f80f052 (edk2-stable202302)
-- edk2_platforms - 54306d023e ("Ext4Pkg: Move unicode collation initialization to Start()", 2023-02-23)
+- edk2 - 5c9676 (edk2-stable202308)
+- edk2_platforms - e509ac5a72 ("Platform/SbsaQemu: add GIC ITS support", 2023-08-22)
 
 Instructions
 ------------
@@ -173,12 +173,12 @@ POSSIBILITY OF SUCH DAMAGE.
 
 .. CoreCI
 
-.. _Windows_VS2019: https://dev.azure.com/projectmu/mu/_build/latest?definitionId=53&&branchName=release%2F202302
-.. |WindowsCiBuild| image:: https://dev.azure.com/projectmu/mu/_apis/build/status/CI/Mu%20Silicon%20Intel%20Tiano%20CI%20VS2019?branchName=release%2F202302
+.. _Windows_VS2019: https://dev.azure.com/projectmu/mu/_build/latest?definitionId=53&&branchName=release%2F202308
+.. |WindowsCiBuild| image:: https://dev.azure.com/projectmu/mu/_apis/build/status/CI/Mu%20Silicon%20Intel%20Tiano%20CI%20VS2019?branchName=release%2F202308
 .. |WindowsCiTest| image:: https://img.shields.io/azure-devops/tests/projectmu/mu/53.svg
 .. |WindowsCiCoverage| image:: https://img.shields.io/badge/coverage-coming_soon-blue
 
-.. _Ubuntu_GCC5: https://dev.azure.com/projectmu/mu/_build/latest?definitionId=54&branchName=release%2F202302
-.. |UbuntuCiBuild| image:: https://dev.azure.com/projectmu/mu/_apis/build/status/CI/Mu%20Silicon%20Intel%20Tiano%20CI%20Ubuntu%20GCC5?branchName=release%2F202302
+.. _Ubuntu_GCC5: https://dev.azure.com/projectmu/mu/_build/latest?definitionId=54&branchName=release%2F202308
+.. |UbuntuCiBuild| image:: https://dev.azure.com/projectmu/mu/_apis/build/status/CI/Mu%20Silicon%20Intel%20Tiano%20CI%20Ubuntu%20GCC5?branchName=release%2F202308
 .. |UbuntuCiTest| image:: https://img.shields.io/azure-devops/tests/projectmu/mu/54.svg
 .. |UbuntuCiCoverage| image:: https://img.shields.io/badge/coverage-coming_soon-blue
